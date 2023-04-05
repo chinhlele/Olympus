@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "montserrat", sans-serif;
+    margin: 150px auto 0;
+    background-image: url("../img/bg/fp.jpg");
+    text-align: center;
+    width: 30%;
+    background-size: cover;
+}
+.link h1 {
+    /* background: linear-gradient(to right, #00b3ee, #c200af 110%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    font-family: "carter One";
+    font-size: 40px;
+    color: white;
+}
+.link p {
+    font-size: 15px;
+    margin: 20px 0;
+    color: rgb(219, 219, 219);
+}
+.link a {
+    display: flex;
+    padding: 10px;
+    border: 0.5px solid gray;
+    border-radius: 5rem;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: gray;
+}
+hr {
+    margin: 50px 0;
+    border: 0.5px solid gray;
+}
+.or {
+    width: 50px;
+    margin: -60px auto 10px;
+    font-weight: 600;
+    color: rgb(87, 87, 87);
+    background-color: #272727;
+    margin-bottom: 40px;
+    font-size: 14px;
+}
+.link a img {
+    width: 30px;
+}
+.content input {
+    display: block;
+    justify-content: center;
+    padding: 15px;
+    width: 100%;
+    border-radius: 5rem;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+    font-size: 16px;
+    background-color: rgb(244, 244, 244);
+    border: none;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+.content input::placeholder {
+    color: rgb(162, 162, 162);
+}
+.content .btn {
+    display: block;
+    border: none;
+    padding: 15px;
+    background-color: #448de5;
+    color: white;
+    border-radius: 5rem;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.hide {
+    position: relative;
+}
+.hide i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translatey(-50%);
+}
+.content .error {
+    color: gray;
+}
+.not-mem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(131, 131, 131);
+    margin-top: 30px;
+}
+.not-mem a {
+    margin-left: 10px;
+    color: #448de5;
+    text-decoration: none;
+}
