@@ -75,6 +75,22 @@ html {
     opacity: 1;
     visibility: visible;
 }
+.overlay-3 {
+    width: 100%;
+    height: 100%;
+    background-color: #00000086;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+.overlay-3.active {
+    opacity: 1;
+    visibility: visible;
+}
 .navbar {
     position: fixed;
     top: 0;
@@ -632,7 +648,7 @@ html {
     color: white;
     position: absolute;
     left: 50%;
-    top: 200px;
+    top: 125px;
     width: 30%;
     transform: translateX(-50%);
     display: none;
@@ -987,6 +1003,11 @@ html {
     font-size: 13px;
     text-align: center;
 }
+@media (max-width: 1589px) {
+    .navbar .card-header {
+        width: 22%;
+    }
+}
 @media (max-width: 1477px) {
     .homepage .para .title {
         font-size: 19px;
@@ -1020,6 +1041,11 @@ html {
         width: 35%;
     }
 }
+@media (max-width: 1300px) {
+    .navbar .card-header {
+        width: 26%;
+    }
+}
 @media (max-width: 1297px) {
     .character .play .thumb img {
         top: -100px;
@@ -1047,6 +1073,11 @@ html {
     }
     .navbar .general {
         width: 40%;
+    }
+}
+@media (max-width: 1100px) {
+    .navbar .card-header {
+        width: 30%;
     }
 }
 @media (max-width: 1089px) {
@@ -1240,6 +1271,9 @@ html {
     .navbar .collapse .navbar-nav li {
         padding: 5px 0;
     }
+    .navbar .card-header {
+        width: 35%;
+    }
 }
 @media (max-width: 910px) {
     .character .play .thumb img {
@@ -1254,6 +1288,11 @@ html {
 @media (max-width: 887px) {
     .main-code .content .title {
         font-size: 35px;
+    }
+}
+@media (max-width: 817px) {
+    .navbar .card-header {
+        width: 41%;
     }
 }
 @media (max-width: 812px) {
@@ -1378,6 +1417,11 @@ html {
         font-size: 15px;
     }
 }
+@media (max-width: 697px) {
+    .navbar .card-header {
+        width: 50%;
+    }
+}
 @media (max-width: 670px) {
     .character .play .thumb img {
         top: 30px;
@@ -1454,6 +1498,13 @@ html {
     .navbar-expand-sm .navbar-collapse {
         display: flex;
     }
+    .navbar .card-header {
+        width: 90%;
+        right: 17px;
+    }
+    .navbar .card-header .mid-header {
+        justify-content: center;
+    }
 }
 @media (max-width: 566px) {
     .add-video .game-button {
@@ -1478,6 +1529,9 @@ html {
 @media (max-width: 500px) {
     .add-video .game-button {
         width: 20%;
+    }
+    .navbar .search .top {
+        margin-bottom: 55px;
     }
 }
 @media (max-width: 480px) {

@@ -188,3 +188,4 @@ submit_random.addEventListener("click", function () {
 thanks.addEventListener("click", function () {
     popup_give.classList.remove("active");
 });
+AOS.init();

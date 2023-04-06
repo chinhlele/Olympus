@@ -3,7 +3,7 @@ let form_contact = document.querySelector(".contact #form-contact");
 let phone_contact = document.querySelector(".contact .enter-phone");
 let thanks = document.querySelector(".contact .popup-contact .thanks");
 let popup_contact = document.querySelector(".contact .popup-contact");
-let overlay = document.querySelector(".overlay");
+let overlay_3 = document.querySelector(".overlay-3");
 function showError(input, message) {
     let parent_input = input.parentElement;
     parent_input.classList.add("error");
@@ -47,10 +47,10 @@ form_contact.addEventListener("submit", function (e) {
         fullname.innerHTML = localStorage.getItem("userName");
         phone.innerHTML = localStorage.getItem("userPhone");
         popup_contact.classList.add("popup-active");
-        overlay.classList.add("active");
+        overlay_3.classList.add("active");
     }
 });
 thanks.addEventListener("click", function () {
     popup_contact.classList.remove("popup-active");
-    overlay.classList.remove("active");
+    overlay_3.classList.remove("active");
 });

@@ -107,7 +107,7 @@ window.addEventListener("scroll", () => {
         to_top.classList.remove("active");
     }
 });
-AOS.init();
+
 $(function () {
     $(".navbar .phone-top").click(function () {
         $(".content-phone").addClass("active");

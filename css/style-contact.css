@@ -140,7 +140,7 @@
 }
 .contact .popup-contact {
     position: absolute;
-    top: 30%;
+    top: 45%;
     left: 50%;
     transform: translate(-30%, -50%);
     background-color: white;
@@ -305,6 +305,9 @@ input::-webkit-inner-spin-button {
     .homepage .content .press .button-85 {
         width: 18%;
         margin-right: 15px;
+    }
+    .contact .popup-contact {
+        left: 45%;
     }
 }
 @media (max-width: 1297px) {
@@ -711,6 +714,10 @@ input::-webkit-inner-spin-button {
     .navbar-expand-sm .navbar-collapse {
         display: flex;
     }
+    .contact .popup-contact {
+        left: 36%;
+        width: 75%;
+    }
 }
 @media (max-width: 566px) {
     .add-video .game-button {
@@ -761,6 +768,10 @@ input::-webkit-inner-spin-button {
 @media (max-width: 445px) {
     .character .play .info-character h3 {
         font-size: 50px;
+    }
+    .contact .popup-contact {
+        left: 35%;
+        width: 77%;
     }
 }
 @media (max-width: 435px) {
